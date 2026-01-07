@@ -196,7 +196,7 @@ void GIFDraw(GIFDRAW* pDraw) {
     }
 
     if (pDraw->y == pDraw->iHeight - 1) {
-        obdDumpBuffer(&obd, ucOLED);
+        obdDumpBuffer(&obd, ucOLED, 1, 1, 1);
     }
 }
 
